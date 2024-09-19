@@ -43,6 +43,3 @@ os.makedirs(data_path, exist_ok=True)
 
 # Save the processed DataFrame to CSV
 df.to_csv(os.path.join(data_path, 'df_processed.csv'), index=False)
-
-
-
